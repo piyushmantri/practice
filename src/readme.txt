@@ -19,3 +19,6 @@ List
         - PrintListRecursion
         - FindMerge - To find if 2 link list are merging
     -Double Link List - DNode.java
+Equals and Hashcode
+Map
+    - Implementation

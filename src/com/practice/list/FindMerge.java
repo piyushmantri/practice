@@ -22,10 +22,7 @@ public class FindMerge {
         list2.getNext().setNext(new Node(4));
         list2.getNext().getNext().setNext(list1.getNext().getNext().getNext());
         Node mergeNode = mergeFinder(list1, list2);
-        if (mergeNode != null)
-            System.out.print("Merging at "+ mergeNode.getValue());
-        else
-            System.out.print("Not Merging");
+        System.out.print( (mergeNode != null) ? "Merging at "+ mergeNode.getValue() : "Not Merging" );
     }
 
     static Node mergeFinder(Node head1, Node head2){
